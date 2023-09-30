@@ -21,7 +21,7 @@ body {
 
 .some-about-site {
     display: flex;
-    justify-content: right;
+    justify-content: center;
     gap: 25px;
     padding-top: 142px;
 }
