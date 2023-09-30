@@ -28,7 +28,7 @@ body {
 
 .check-item {
     display: flex;
-    gap: 18px;
+    gap: 11px;
 
     color:#5584ff;
 
@@ -45,7 +45,42 @@ body {
     /* margin-bottom: 100px;*/
 }
 
+.some-about-site .text p{
+    font-family: Roboto Regular;
+    color: #8492af;
+    font-size: 8.625pt;
+    letter-spacing: 0px;
+    font-weight: 300;
+    width: 375px;
+    line-height: 20px;
+}
+
+.some-about-site .text > p:nth-child(2) {
+    margin-bottom: -5.9px;
+}
+
+.some-about-site .check-items {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    margin-top: 11px;
+}
+.some-about-site .check-items .check-item i{
+    font-size: 14pt;
+    margin-top: 1px;
+    margin-left: 1px;
+}
+.some-about-site .text .check-items .check-item p{
+    font-family: Roboto Regular;
+    color: #5584ff;
+    font-size: 10.51pt;
+    font-weight: 500;
+}
+
 
 .some-about-site .text {
     width: 415px;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
 }
