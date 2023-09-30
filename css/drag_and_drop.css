@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-wrapper { 
+    width: 2000px;
+}
+
+.drag-and-drop img{
+    height: 750px;
+    width: 2000px;
+
+}
