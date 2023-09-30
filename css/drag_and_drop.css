@@ -12,8 +12,7 @@ body {
     width: 2000px;
 }
 
-.drag-and-drop img{
-    height: 750px;
-    width: 2000px;
-
+.drag-and-drop {
+    background: url("../images/background.png") no-repeat;
+    background-size: 100%;
 }
