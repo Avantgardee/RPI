@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.some-about-site img {
+    /* width: px; */
+    /* height: 623px; */
+    width: 668px;
+    
+}
+
+.hero-wrapper { 
+    width: 2000px;
+}
+
+.some-about-site {
+    display: flex;
+    justify-content: right;
+    gap: 25px;
+    padding-top: 142px;
+}
+
+.check-item {
+    display: flex;
+    gap: 18px;
+
+    color:#5584ff;
+
+}
+
+.some-about-site .text h2{
+    font-size: 29pt;
+    font-family: Roboto Thin;
+    letter-spacing: -0.15px;
+    white-space: nowrap;
+    color: #0e1a35;
+    font-weight: 200;
+    margin-top: 43px;
+    /* margin-bottom: 100px;*/
+}
+
+
+.some-about-site .text {
+    width: 415px;
+}
