@@ -1,0 +1,124 @@
+
+
+.start-prewiew{
+    height: 1228px;
+    background-image: url('../img/Graph.png') ;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    background-size: 2000px 1100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.menu-button{
+    font-family: Roboto Regular;
+    line-height: 20px;
+    font-size: 18px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-button:hover{
+    transition: 0.5s ease-in-out;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    width: 1689px;
+    margin-left: 10px;
+    margin-top: 67px;
+}
+#btn1{
+    margin-right: 50px;
+}
+#btn2{
+    margin-right: 51px;
+}
+#btn3{
+    margin-right: 56px;
+}
+#btn4{
+    margin-right: 45px;
+}
+.logo-icon{
+    width: 233px;
+    height: 65px ;
+
+}
+#login{
+    height: 50px;
+    width: 132px;
+    border: 1px solid #233a72; 
+    border-radius: 25px;
+}
+#login:hover{
+     transition: 0.5s ease-in-out;
+     background-color: #233a72; 
+     box-shadow: 0px -2px 29px 19px rgba(85, 132, 255, 0.4);
+    
+}
+#login a:hover{
+    color: white;
+    cursor: pointer;
+}
+#login a{
+    text-decoration: none;
+    color: #5584ff;
+}
+.menu-buttons{
+    display: flex;
+    flex-direction: row;
+}
+.welcome-text{
+    font-family: Roboto;
+    font-size: 60px;
+    font-weight: 100;
+    color: white;  
+    margin-top: 46px;
+    margin-bottom: 9px;
+}
+.description{
+    font-family: Roboto Regular;
+    font-size: 36px;
+    color:#8492af;
+    font-weight: 500;
+    margin-bottom:78px;
+}
+.btn-get-started{
+    font-family: Roboto;
+    font-weight: 500;
+    color: white;
+    font-size:18px;
+    width: 204px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5584ff;
+    border-radius: 25px;
+}
+.btn-get-started:hover{
+    font-size:21px;
+    cursor:pointer;
+    transition: 0.2s ease-in-out;
+}
+.main-text{
+height: 475px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+
+}
+.software-interface{
+    box-shadow: 0px 0px 70px 24px rgba(39, 71, 144, 0.46);
+}
+
+
