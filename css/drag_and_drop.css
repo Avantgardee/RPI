@@ -17,8 +17,76 @@ body {
     background-position-y: -6px;
     background-position-x: -2px;
     height: 750px;
- 
-.drag-and-drop {
+    display: flex;
+    gap: 91px;
+    justify-content: center;
+    align-items: center;
+}
+
+.drag-and-drop .left-part .header {
     display: flex;
 }
+
+.drag-and-drop .left-part .header p {
+    font-family: Roboto Medium;
+    color: #ffffff;
+    font-size: 13.5pt;
+    letter-spacing: 0px;
+    font-weight: 900;
+    width: 530px;
+}
+
+.drag-and-drop .left-part .header span {
+    color: #8492af;
+}
+
+.drag-and-drop .left-part {
+    width: 800px;
+}
+.check-item {
+    display: flex;
+    gap: 18px;
+
+    color:#5584ff;
+
+}
+
+.drag-and-drop .text h2{
+    font-size: 45pt;
+    font-family: Roboto Thin;
+    white-space: nowrap;
+    color: #ffffff;
+    font-weight: 200;
+    margin-top: 30px;
+}
+
+.drag-and-drop .text p{
+    font-family: Roboto Regular;
+    color: #8492af;
+    font-size: 13.5pt;
+    letter-spacing: 0px;
+    font-weight: 300;
+    width: 530px;
+    line-height: 30px;
+    margin-left: 6px;
+}
+
+.drag-and-drop .text > p:nth-child(2) {
+    margin-bottom: -8px;
+}
+
+.drag-and-drop .check-items {
+    display: flex;
+}
+
+.drag-and-drop .text {
+    width: 589px;
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+}
+
+.drag-and-drop .check-items span i {
+    vertical-align: middle;
+    text-align: center;
 }
