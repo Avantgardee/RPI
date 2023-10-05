@@ -13,6 +13,8 @@ body {
 }
 
 .drag-and-drop {
-    background: url("../images/background.png") no-repeat;
-    background-size: 100%;
+    background: url("../images/xenanana.png") no-repeat;
+    background-position-y: -6px;
+    background-position-x: -2px;
+    height: 750px; 
 }
