@@ -140,6 +140,7 @@ body {
 .drag-and-drop .right-part {
     margin-left: -57px;
     width: 703px;
+    height: 392px;
 }
 
 
@@ -168,9 +169,7 @@ body {
     margin-bottom: -8px;
 }
 
-.drag-and-drop .check-items {
-    display: flex;
-}
+
 
 .drag-and-drop .text {
     width: 589px;
@@ -179,7 +178,51 @@ body {
     gap: 38px;
 }
 
-.drag-and-drop .check-items span i {
-    vertical-align: middle;
-    text-align: center;
+.drag-and-drop .check-items {
+    display: flex;
+    gap: 18px;
+    margin-top: 10px;
+    margin-left: 9px;
+}
+
+
+.drag-and-drop .caret-left {
+    width: 33px; 
+    height: 33px;
+    background-color: transparent; 
+    border: 1.5px solid rgb(255, 255, 255); 
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 11px solid #ffffff;
+    
+  }
+  
+  .caret-left .triangle {
+    transform: rotate(-90deg);
+    margin-right: 3px;
+  }
+
+  .caret-right .triangle {
+    transform: rotate(90deg);
+    margin-left: 4px;
+  }
+
+.drag-and-drop .caret-right {
+    width: 33px; 
+    height: 33px;
+    background-color: transparent; 
+    border: 1.5px solid rgb(255, 255, 255); 
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
