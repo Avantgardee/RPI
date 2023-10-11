@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    
+}
+.hero-wrapper { 
+    width: 2000px;
+}
+
+.prices{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    gap: 140px;
+}
+
+.prices___Roboto_Thin{
+    font-size: 60px;
+    font-family: "Roboto";
+    color: rgb(14, 26, 53);
+    line-height: 0.24;
+    text-align: left;
+}
+
