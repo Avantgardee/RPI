@@ -22,17 +22,17 @@
     grid-gap: 14px 50px;
 }
 
-.drag-and-drop .left-part .header:first-child{
+.drag-and-drop .left-part .header-name:first-child{
     display: flex;
     justify-content: space-between;
 }
 
-.drag-and-drop .left-part .header:nth-child(2){
+.drag-and-drop .left-part .header-name:nth-child(2){
     margin-left: -2px;
 }
 
 
-.drag-and-drop .left-part .header p{
+.drag-and-drop .left-part .header-name p{
     font-family: Roboto Medium;
     color: #ffffff;
     font-size: 22.25pt;
@@ -42,7 +42,7 @@
 }
 
 
-.drag-and-drop .left-part .header {
+.drag-and-drop .left-part .header-name {
     align-self: center;
     margin-top: 31px;
     margin-left: -4px;
@@ -50,11 +50,11 @@
 
 }
 
-.drag-and-drop .left-part .header i {
+.drag-and-drop .left-part .header-name i {
     font-size: 1.7em;
     margin-top: 4px;
 }
-.drag-and-drop .left-part .header span{
+.drag-and-drop .left-part .header-name span{
     color: #8492af;
 }
 
