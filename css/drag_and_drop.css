@@ -1,7 +1,7 @@
 
 
 .drag-and-drop {
-    background: url(../images/xenanana.png) no-repeat;
+    background: url(../img/xenanana.png) no-repeat;
     background-position-y: -6px;
     background-position-x: -2px;
     height: 750px;
@@ -43,8 +43,7 @@
 
 
 .drag-and-drop .left-part .header-name {
-    align-self: center;
-    margin-top: 31px;
+    margin-top: 44px;
     margin-left: -4px;
     margin-right: 2px;
 
