@@ -13,18 +13,53 @@ body {
     width: 2000px;
 }
 
-.prices{
+.prices___prices{
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column;
     justify-content: center;
-    gap: 140px;
+    padding-top: 20px;
 }
 
 .prices___Roboto_Thin{
     font-size: 60px;
     font-family: "Roboto";
+    font-weight: 300;
     color: rgb(14, 26, 53);
     line-height: 0.24;
-    text-align: left;
+    text-align: center;
+    margin-bottom: 109px;
 }
+
+.prices___Block_of_Cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 140px;
+}
+
+.prices___Card {
+    background-color: rgb(255, 255, 255);
+    box-shadow: insert;
+    width: 483px;
+    height: 545px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding-top: 48px;
+}
+
+.prices___Roboto_Regular_Heading {
+    font-size: 24px;
+    font-family: "Roboto";
+    font-weight: 500;
+    color: rgb(14, 26, 53);
+    line-height: 1.5;
+    text-align: center;
+}
+
+
+
+
+
+
 
