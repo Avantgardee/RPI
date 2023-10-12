@@ -40,8 +40,8 @@ body {
 .prices___Card {
     background-color: rgb(255, 255, 255);
     box-shadow: insert;
-    width: 483px;
-    height: 545px;
+    width: 360px;
+    height: 422px;
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -55,7 +55,52 @@ body {
     color: rgb(14, 26, 53);
     line-height: 1.5;
     text-align: center;
+    margin-bottom: 58px;
 }
+
+.prices___Card_price{
+    display: flex;
+    flex-direction: row;
+    padding-left: 103px;
+    align-items: baseline;
+}
+
+.prices___dollar{
+    font-size: 40px;
+    font-family: "Roboto";
+    color: rgb(14, 26, 53);
+    font-weight: bold;
+    line-height: 1.636;
+    text-align: left;
+    margin-right: 4px;
+}
+
+.prices___num {
+    font-size: 72px;
+    font-family: "Roboto";
+    color: rgb(14, 26, 53);
+    font-weight: bold;
+    line-height: 0.5;
+    text-align: left;
+    margin-right: 9px;
+}
+
+.prices___per_mon {
+    font-size: 24px;
+    font-family: "Roboto";
+    color: rgb(132, 146, 175);
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+}
+  
+
+.prices___Card_list{
+    text-align: center;
+}
+
+
+
 
 
 
