@@ -1,0 +1,75 @@
+
+
+.some-about-site img {
+    /* width: px; */
+    /* height: 623px; */
+    width: 1047px;
+    
+}
+
+
+.some-about-site {
+    display: flex;
+    justify-content: right;
+    gap: 99px;
+    padding-top: 222px;
+}
+
+.check-item {
+    display: flex;
+    gap: 18px;
+
+    color:#5584ff;
+
+}
+
+.some-about-site .text h2{
+    font-size: 45pt;
+    font-family: Roboto Thin;
+    white-space: nowrap;
+    color: #0e1a35;
+    font-weight: 200;
+    margin-top: 68px;
+    /* margin-bottom: 100px;
+    /* margin-bottom: 100px;*/
+}
+
+.some-about-site .text p{
+    font-family: Roboto Regular;
+    color: #8492af;
+    font-size: 13.5pt;
+    letter-spacing: 0px;
+    font-weight: 300;
+    width: 585px;
+    line-height: 30px;
+}
+
+.some-about-site .text > p:nth-child(2) {
+    margin-bottom: -8px;
+}
+
+.some-about-site .check-items {
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+    margin-top: 16px;
+}
+.some-about-site .check-items .check-item i{
+    font-size: 20pt;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+.some-about-site .text .check-items .check-item p{
+    font-family: Roboto Regular;
+    color: #5584ff;
+    font-size: 16.51pt;
+    font-weight: 500;
+}
+
+
+.some-about-site .text {
+    width: 589px;
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+}
