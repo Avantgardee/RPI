@@ -23,7 +23,7 @@ body {
 .prices___Roboto_Thin{
     font-size: 60px;
     font-family: "Roboto";
-    font-weight: 300;
+    font-weight: 100;
     color: rgb(14, 26, 53);
     line-height: 0.24;
     text-align: center;
@@ -51,11 +51,13 @@ body {
 .prices___Roboto_Regular_Heading {
     font-size: 24px;
     font-family: "Roboto";
-    font-weight: 500;
+    font-weight: 400;
     color: rgb(14, 26, 53);
     line-height: 1.5;
     text-align: center;
 }
+
+
 
 
 
