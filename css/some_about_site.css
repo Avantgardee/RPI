@@ -12,7 +12,8 @@
     display: flex;
     justify-content: right;
     gap: 99px;
-    padding-top: 222px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .check-item {
