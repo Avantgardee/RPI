@@ -157,6 +157,7 @@ ul.prices___Card_list li.prices___circle_xmark:before{ content: "\f057"; color: 
     justify-content: center;
     align-items: center;
     gap: 30px;
+    margin-bottom: 104px;
 }
 
 .prices___Lines{
