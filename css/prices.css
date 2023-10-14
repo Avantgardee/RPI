@@ -27,7 +27,7 @@ body {
     color: rgb(14, 26, 53);
     line-height: 0.24;
     text-align: center;
-    margin-bottom: 109px;
+    margin-bottom: 116px;
 }
 
 .prices___Block_of_Cards{
@@ -39,13 +39,13 @@ body {
 
 .prices___Card {
     background-color: rgb(255, 255, 255);
-    box-shadow: insert;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25);
     width: 360px;
-    height: 422px;
+    height: 414px;
     display: flex;
     flex-flow: column;
     justify-content: center;
-    padding-top: 48px;
+    padding-top: 6px;
 }
 
 .prices___Roboto_Regular_Heading {
@@ -55,7 +55,9 @@ body {
     color: rgb(14, 26, 53);
     line-height: 1.5;
     text-align: center;
-    margin-bottom: 58px;
+    margin-bottom: 30px;
+    word-spacing: -1.5px;
+    letter-spacing: 0.8px;
 }
 
 .prices___Card_price{
@@ -63,6 +65,7 @@ body {
     flex-direction: row;
     padding-left: 103px;
     align-items: baseline;
+    margin-bottom: 29px;
 }
 
 .prices___dollar{
@@ -70,9 +73,8 @@ body {
     font-family: "Roboto";
     color: rgb(14, 26, 53);
     font-weight: bold;
-    line-height: 1.636;
     text-align: left;
-    margin-right: 4px;
+    margin-right: 1px;
 }
 
 .prices___num {
@@ -80,28 +82,60 @@ body {
     font-family: "Roboto";
     color: rgb(14, 26, 53);
     font-weight: bold;
-    line-height: 0.5;
     text-align: left;
-    margin-right: 9px;
+    margin-right: 4px;
 }
-
+  
 .prices___per_mon {
     font-size: 24px;
     font-family: "Roboto";
     color: rgb(132, 146, 175);
     font-weight: 400;
-    line-height: 1.5;
     text-align: left;
 }
   
 
-.prices___Card_list{
-    text-align: center;
+ul.prices___Card_list{
+    list-style-type: none;
 }
 
+.prices___Card_list{
+    font-size: 18px;
+    font-family: "Roboto";
+    color: rgb(132, 146, 175);
+    font-weight: 400;
+    line-height: 2.3;
+    align-self: center;
+}
 
+.prices___li{
+    word-spacing: 2px;
+    display: flex;
+    align-items: center;   
+}
 
+.prices___li_icons_check{
+    color: #5284ff;
+    bottom: -7px;
+    --fa-li-width: 51px;
+}
 
+.prices___li_icons_xmark{
+    color: #f84782; 
+    bottom: -7px;
+    --fa-li-width: 51px;
+}
+
+/*.prices___li_icon_style:before{
+    font-family: FontAwesome;
+    
+    content: "\f058";
+    font-size: 22px;
+    color: #5284ff;
+}
+
+ul.prices___Card_list li.prices___circle_check:before{ content: "\f058"; color: #5284ff;}
+ul.prices___Card_list li.prices___circle_xmark:before{ content: "\f057"; color: #f84782;}*/
 
 
 
