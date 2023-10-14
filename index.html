@@ -6,7 +6,11 @@
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+
+<link href="css/main.css" rel="stylesheet" type="text/css">
 <link href="css/top_menu.css" rel="stylesheet" type="text/css">
 <link href="css/start_prewiew.css" rel="stylesheet" type="text/css">
 <link href="css/plus_cards.css" rel="stylesheet" type="text/css">
@@ -16,129 +20,329 @@
 <link href="css/prices.css" rel="stylesheet" type="text/css">
 <link href="css/footer.css" rel="stylesheet" type="text/css">
 
-
+<script src="https://kit.fontawesome.com/2becaac23b.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="hero-wrapper">
-        <section class="top-menu"></section>
-        <section class="start-prewiew"></section>
-        <section class="plus-cards"></section>
-        <section class="some-about-site"></section>
-        <section class="drag-and-drop"></section>
-        <section class="powerfull-psd"></section>
-        <section class="prices">
-            <div class="prices___prices">
-                <h3 class="prices___Roboto_Thin">Check our pricing!</h3>
-                <div class="prices___Block_of_Cards">
-                    <div class="prices___Card">
-                        <h4 class="prices___Roboto_Regular_Heading">
-                            BRONZE PLAN
-                        </h4>
-
-                        <div class="prices___Card_price">
-                            <p class="prices___dollar">$</p>
-                            <p class="prices___num">19</p>
-                            <p class="prices___per_mon">/mon</p>
-                        </div>
-
-                        <ul class="prices___Card_list fa-ul" >
-                            <li class="prices___li">                            
-                                <i class="prices___li_icons_check fa-li fa-regular fa-circle-check fa-lg"></i>
-                                Lorem ipsum dolor sit am
-                            </li>
-                            <li class="prices___li">                            
-                                <i class="prices___li_icons_check fa-li fa-regular fa-circle-check fa-lg"></i>
-                                Lorem ipsum dolor sit am
-                            </li>
-                            <li class="prices___li">                            
-                                <i class="prices___li_icons_xmark fa-li fa-regular fa-circle-xmark fa-lg"></i>
-                                Lorem ipsum dolor sit am
-                            </li>
-                            <li class="prices___li">                            
-                                <i class="prices___li_icons_xmark fa-li fa-regular fa-circle-xmark fa-lg"></i>
-                                Lorem ipsum dolor sit am
-                            </li>
-                        </ul>
-
-                    </div>
-                    <div class="prices___Card">
-                        <h4 class="prices___Roboto_Regular_Heading">
-                            SILVER PLAN
-                        </h4>
-
-                        <div class="prices___Card_price">
-                            <p class="prices___dollar">$</p>
-                            <p class="prices___num">49</p>
-                            <p class="prices___per_mon">/mon</p>
-                        </div>
-
-                        <ul class="prices___Card_list fa-ul">
-                            <li class="prices___li">                            
-                                <i class="prices___li_icons_check fa-li fa-regular fa-circle-check fa-lg"></i>
-                                Lorem ipsum dolor sit am
-                            </li>
-                            <li class="prices___li">                            
-                                <i class="prices___li_icons_check fa-li fa-regular fa-circle-check fa-lg"></i>
-                                Lorem ipsum dolor sit am
-                            </li>
-                            <li class="prices___li">                            
-                                <i class="prices___li_icons_check fa-li fa-regular fa-circle-check fa-lg"></i>
-                                Lorem ipsum dolor sit am
-                            </li>
-                            <li class="prices___li">                            
-                                <i class="prices___li_icons_xmark fa-li fa-regular fa-circle-xmark fa-lg"></i>
-                                Lorem ipsum dolor sit am
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="prices___Card">
-                        <h4 class="prices___Roboto_Regular_Heading">
-                            GOLD PLAN
-                        </h4>
-                        <div class="prices___Card_price">
-                            <p class="prices___dollar">$</p>
-                            <p class="prices___num">99</p>
-                            <p class="prices___per_mon">/mon</p>
-                        </div>
-
-                        <ul class="prices___Card_list fa-ul">
-                            <li class="prices___li">                            
-                                <i class="prices___li_icons_check fa-li fa-regular fa-circle-check fa-lg"></i>
-                                Lorem ipsum dolor sit am
-                            </li>
-                            <li class="prices___li">                            
-                                <i class="prices___li_icons_check fa-li fa-regular fa-circle-check fa-lg"></i>
-                                Lorem ipsum dolor sit am
-                            </li>
-                            <li class="prices___li">                            
-                                <i class="prices___li_icons_check fa-li fa-regular fa-circle-check fa-lg"></i>
-                                Lorem ipsum dolor sit am
-                            </li>
-                            <li class="prices___li">                            
-                                <i class="prices___li_icons_check fa-li fa-regular fa-circle-check fa-lg"></i>
-                                Lorem ipsum dolor sit am
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <p class="prices___Roboto_Regular_center">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+    <section class="top-menu"></section>
+    <section class="start-prewiew">
+        <div class="header">
+            <img src="img/Logo.png" alt="logo" class="logo-icon">
+            <div class="menu-buttons">
+                    <div class="menu-button" id="btn1">Features</div>
+                    <div class="menu-button" id="btn2">Pricing</div>
+                    <div class="menu-button" id="btn3">Blog</div>
+                    <div class="menu-button" id="btn4">Contact</div>
+                    <div class="menu-button" id="login"><a href="">Login</a></div>
+            </div>
+        </div>
+        <div class="main-text">
+            <h1 class="welcome-text">Grow Your business with Merkury</h1>
+            <h4 class="description">Your partner in crime!</h4>
+            <div class="btn-get-started">Get started</div>
+        </div>
+        <img src="img/Merkury - Home kopia.png" alt="" class="software-interface" width="882px" height="621px">
+    </section>
+    <section class="plus-cards">
+        <div class="three-pluses">
+            <div class="plus-card">
+                <i class="fa-solid fa-diagram-project" style="color: #5284ff;"></i>
+                <h2 class="plus-name">Manage Your Workflow</h2>
+                <p class="some-plus-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                <div class="btn-see-more">See more</div>
+            </div>
+            <div class="plus-card">
+                <i class="fa-solid fa-arrow-trend-up" style="color: #5284ff;"></i>
+                <h2 class="plus-name">Analytics & Insights</h2>
+                <p class="some-plus-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                <div class="btn-see-more">See more</div>
+            </div>
+            <div class="plus-card">
+                <i class="fa-solid fa-calendar-days" style="color: #5284ff;"></i>
+                <h2 class="plus-name">Organize Your Deadlines</h2>
+                <p class="some-plus-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                <div class="btn-see-more">See more</div>
+            </div>
+        </div>     
+    </section>
+    <section class="some-about-site">
+        <div>
+            <div class ="text">
+                <h2> All You need is a browser! </h2>
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 </p>
-                <div class="prices___Block_join_now">
-                    <hr class="prices___Lines">
-                    <a href="#" class="prices___A_Join_now">
-                        <p class="prices___Join_now">Join now!</p>
-                    </a>
-                    <hr class="prices___Lines">
+                <p>
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                </p>
+                <div class="check-items">
+                    <div class="check-item">
+                        <i class="fa-regular fa-circle-check" style="color: #5584ff;"></i>
+                        <p>Lorem ipsum dolor sit amet consectetur</p>
+                    </div>
+                    <div class="check-item">
+                        <i class="fa-regular fa-circle-check" style="color: #5584ff;"></i>
+                        <p>Ut enim ad minim veniam quis nostrud</p>
+                    </div>
                 </div>
 
             </div>
-        </section>
-        <section class="footer"></section>
+        </div>
+        <img src="./images/tablets.png" alt="tablets">
+    </section>
+    <section class="drag-and-drop">
+        <div class="left-part">
+            <div class="header-name">
+                <p> In Progress <span> (3) </span></p>
+                <i class="fa-solid fa-chevron-right" style="color: #8492af;"></i>
+            </div>
+            <div class="header-name">
+                <p> Completed <span> (2) </span></p>
+            </div>
+            <div class="card">
+                <div class="card-name">
+                    <div class="circle">
+                        <span> N </span>
+                    </div>
+
+                    <div class="card-rightpart">
+                        <div class="name-status">
+                            <p> New logo for Apple</p>
+                            <div class="status">
+                                <i class="fa-regular fa-clock" style="color: #a1acc2;"></i>
+                                <p> 1 day left </p>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-ellipsis-vertical" style="color: #a1acc2;"></i>
+
+                    </div>
+                </div> 
+            </div>
+            <div class="card"> 
+                <div class="card-name">
+                    <div class="circle">
+                        <span> F </span>
+                    </div>
+
+                    <div class="card-rightpart">
+                        <div class="name-status">
+                            <p> Free PSD Template vol. 1</p>
+                            <div class="status">
+                                <i class="fa-regular fa-circle-check" style="color: #2aca41;"></i>
+                                <p style="color: #2aca41;"> Completed!</p>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-ellipsis-vertical" style="color: #a1acc2;"></i>
+
+                    </div>
+                </div> 
+            </div>
+            <div class="card"> 
+                <div class="card-name">
+                    <div class="circle">
+                        <span> D </span>
+                    </div>
+
+                    <div class="card-rightpart">
+                        <div class="name-status">
+                            <p> Daily UI Kit</p>
+                            <div class="status">
+                                <i class="fa-regular fa-clock" style="color: #a1acc2;"></i>
+                                <p> 5 days left </p>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-ellipsis-vertical" style="color: #a1acc2;"></i>
+
+                    </div>
+                </div> 
+            </div>
+            <div class="card"> 
+                <div class="card-name">
+                    <div class="circle">
+                        <span> I </span>
+                    </div>
+
+                    <div class="card-rightpart">
+                        <div class="name-status">
+                            <p> Iconset vol. 1</p>
+                            <div class="status">
+                                <i class="fa-regular fa-circle-check" style="color: #2aca41;"></i>
+                                <p style="color: #2aca41;"> Completed!</p>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-ellipsis-vertical" style="color: #a1acc2;"></i>
+
+                    </div>
+                </div> 
+            </div>
+            <div class="card"> 
+                <div class="card-name">
+                    <div class="circle">
+                        <span> B </span>
+                    </div>
+
+                    <div class="card-rightpart">
+                        <div class="name-status">
+                            <p> Business Cards</p>
+                            <div class="status">
+                                <i class="fa-regular fa-clock" style="color: #f9588e;"></i>
+                                <p style="color: #f9588e;"> 2 days delays </p>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-ellipsis-vertical" style="color: #a1acc2;"></i>
+
+                    </div>
+                </div> 
+            </div>
+        </div>  
+        <div class="right-part">
+            <div class ="text">
+                <h2> Drag & Drop </h2>
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                </p>
+                <p>
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                </p>
+                <div class="check-items">
+                    <div class="caret-left">
+                        <!--<i class="fa-solid fa-caret-left" style="color: #ffffff;"></i>-->
+                        <div class="triangle"></div>
+                    </div>   
+                        
+
+                    <div class="caret-right">
+                        <div class="triangle"></div>
+                        <!--<i class="fa-solid fa-caret-right" style="color: #ffffff;"></i>-->
+                    </div>    
+
+                </div>
+                
+            </div>
+        </div> 
+        
+        <!-- <img src="./images/background.png" alt="drag and drop background"> -->
+    </section>
+
+  <section class="powerfull-psd"></section>
+  <section class="prices">
+      <div class="prices___prices">
+        <h3 class="prices___Roboto_Thin">Check our pricing!</h3>
+        <div class="prices___Block_of_Cards">
+            <div class="prices___Card">
+                <h4 class="prices___Roboto_Regular_Heading">
+                    BRONZE PLAN
+                </h4>
+
+                <div class="prices___Card_price">
+                    <p class="prices___dollar">$</p>
+                    <p class="prices___num">19</p>
+                    <p class="prices___per_mon">/mon</p>
+                </div>
+
+                <ul class="prices___Card_list fa-ul" >
+                    <li class="prices___li">                            
+                        <i class="prices___li_icons_check fa-li fa-regular fa-circle-check fa-lg"></i>
+                        Lorem ipsum dolor sit am
+                    </li>
+                    <li class="prices___li">                            
+                        <i class="prices___li_icons_check fa-li fa-regular fa-circle-check fa-lg"></i>
+                        Lorem ipsum dolor sit am
+                    </li>
+                    <li class="prices___li">                            
+                        <i class="prices___li_icons_xmark fa-li fa-regular fa-circle-xmark fa-lg"></i>
+                        Lorem ipsum dolor sit am
+                    </li>
+                    <li class="prices___li">                            
+                        <i class="prices___li_icons_xmark fa-li fa-regular fa-circle-xmark fa-lg"></i>
+                        Lorem ipsum dolor sit am
+                    </li>
+                </ul>
+
+            </div>
+            <div class="prices___Card">
+                <h4 class="prices___Roboto_Regular_Heading">
+                    SILVER PLAN
+                </h4>
+
+                <div class="prices___Card_price">
+                    <p class="prices___dollar">$</p>
+                    <p class="prices___num">49</p>
+                    <p class="prices___per_mon">/mon</p>
+                </div>
+
+                <ul class="prices___Card_list fa-ul">
+                    <li class="prices___li">                            
+                        <i class="prices___li_icons_check fa-li fa-regular fa-circle-check fa-lg"></i>
+                        Lorem ipsum dolor sit am
+                    </li>
+                    <li class="prices___li">                            
+                        <i class="prices___li_icons_check fa-li fa-regular fa-circle-check fa-lg"></i>
+                        Lorem ipsum dolor sit am
+                    </li>
+                    <li class="prices___li">                            
+                        <i class="prices___li_icons_check fa-li fa-regular fa-circle-check fa-lg"></i>
+                        Lorem ipsum dolor sit am
+                    </li>
+                    <li class="prices___li">                            
+                        <i class="prices___li_icons_xmark fa-li fa-regular fa-circle-xmark fa-lg"></i>
+                        Lorem ipsum dolor sit am
+                    </li>
+                </ul>
+            </div>
+            <div class="prices___Card">
+                <h4 class="prices___Roboto_Regular_Heading">
+                    GOLD PLAN
+                </h4>
+                <div class="prices___Card_price">
+                    <p class="prices___dollar">$</p>
+                    <p class="prices___num">99</p>
+                    <p class="prices___per_mon">/mon</p>
+                </div>
+
+                <ul class="prices___Card_list fa-ul">
+                    <li class="prices___li">                            
+                        <i class="prices___li_icons_check fa-li fa-regular fa-circle-check fa-lg"></i>
+                        Lorem ipsum dolor sit am
+                    </li>
+                    <li class="prices___li">                            
+                        <i class="prices___li_icons_check fa-li fa-regular fa-circle-check fa-lg"></i>
+                        Lorem ipsum dolor sit am
+                    </li>
+                    <li class="prices___li">                            
+                        <i class="prices___li_icons_check fa-li fa-regular fa-circle-check fa-lg"></i>
+                        Lorem ipsum dolor sit am
+                    </li>
+                    <li class="prices___li">                            
+                        <i class="prices___li_icons_check fa-li fa-regular fa-circle-check fa-lg"></i>
+                        Lorem ipsum dolor sit am
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <p class="prices___Roboto_Regular_center">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+        </p>
+        <div class="prices___Block_join_now">
+            <hr class="prices___Lines">
+            <a href="#" class="prices___A_Join_now">
+                <p class="prices___Join_now">Join now!</p>
+            </a>
+            <hr class="prices___Lines">
+        </div>
+
+    </div>   
+  </section>
+  <section class="footer"></section>
+  </div>
+
+
+
+
+
     </div>
 
-    <script src="https://kit.fontawesome.com/2becaac23b.js" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
