@@ -35,10 +35,10 @@
     text-align: left;
 }
 
-.footer .footer .navigation .social_network_icons{
+.footer .footer .social_network_icons{
     color: rgb(132, 146, 175);
     display: flex;
     flex-flow: row;
-    gap: 55px;
+    gap: 20px;
 }
 
