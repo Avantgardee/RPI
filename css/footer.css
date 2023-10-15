@@ -8,25 +8,33 @@
 
 .footer .footer .main_div{
     max-width: 1500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
-.footer .footer .year{
+.footer .footer .main_div .year{
     font-size: 18px;
     font-family: "Roboto";
     color: rgb(132, 146, 175);
     font-weight: normal;
     line-height: 1.667;
     text-align: right;
-    margin-left: 800px;
+    align-self: center;
+    margin-right: 800px;
 }
 
-.footer .footer .navigation{
+.footer .footer .main_div .navigation{
     display: flex;
     flex-flow: row;
     gap: 55px;
+    margin-right: 20px;
 }
 
-.footer .footer .navigation .word{
+
+
+.footer .footer .main_div .navigation a{
+    text-decoration: none;
     font-size: 18px;
     font-family: "Roboto";
     color: rgb(132, 146, 175);
@@ -35,10 +43,24 @@
     text-align: left;
 }
 
-.footer .footer .social_network_icons{
-    color: rgb(132, 146, 175);
+.footer .footer .main_div .navigation a:hover{
+    background-color:aqua;
+}
+
+
+.footer .footer .main_div .social_network_icons{
     display: flex;
     flex-flow: row;
     gap: 20px;
+    align-self: center;
+}
+
+.footer .footer .main_div .social_network_icons .icons{
+    text-decoration: none;
+    color: rgb(132, 146, 175);
+}
+
+.footer .footer .main_div .social_network_icons .icons :hover{
+    background-color:aqua;
 }
 
