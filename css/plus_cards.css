@@ -1,0 +1,64 @@
+/*----------------------------------------*/
+.three-pluses{
+    width: 1470px;
+    height: 623px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 30px;
+}
+.plus-card{
+    height: 623px;
+    width: 470px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.plus-cards{
+    background-image: url(../img/back.png);
+    background-size: 2000px 623px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 29px;
+}
+.some-plus-text{
+    text-align: center;
+    color:#8492af;
+    width: 364px;
+    height: 78px;
+    margin-bottom: 51px;
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 30px;
+}
+.fa-solid{
+    font-size: 80px;
+    margin-bottom: 60px;
+    margin-top:135px;
+}
+.plus-name{
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight: 900;
+    margin-bottom: 27px;
+}
+.btn-see-more{
+    width:252px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid #dadee7;
+    border-radius: 25px;
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: 700;
+}
+.btn-see-more:hover{
+    background-color: #dadee7;
+    border:1px solid #636364;
+    transition: 0.5s;
+    cursor: pointer;
+}
