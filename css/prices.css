@@ -187,7 +187,7 @@ ul.prices___Card_list li.prices___circle_xmark:before{ content: "\f057"; color: 
     text-align: left;
 }
 
-a:hover{
+.prices___A_Join_now:hover{
     background-color:aqua;
 }
 
