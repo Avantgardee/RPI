@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    
+}
+.hero-wrapper { 
+    width: 2000px;
+}
+
+.prices___prices{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.prices___Roboto_Thin{
+    font-size: 60px;
+    font-family: "Roboto";
+    font-weight: 100;
+    color: rgb(14, 26, 53);
+    line-height: 0.24;
+    text-align: center;
+    margin-bottom: 116px;
+}
+
+.prices___Block_of_Cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 140px;
+    margin-bottom: 109px;
+}
+
+.prices___Card {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25);
+    width: 360px;
+    height: 414px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding-top: 6px;
+}
+
+.prices___Roboto_Regular_Heading {
+    font-size: 24px;
+    font-family: "Roboto";
+    font-weight: 400;
+    color: rgb(14, 26, 53);
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 30px;
+    word-spacing: -1.5px;
+    letter-spacing: 0.8px;
+}
+
+.prices___Card_price{
+    display: flex;
+    flex-direction: row;
+    padding-left: 103px;
+    align-items: baseline;
+    margin-bottom: 29px;
+}
+
+.prices___dollar{
+    font-size: 40px;
+    font-family: "Roboto";
+    color: rgb(14, 26, 53);
+    font-weight: bold;
+    text-align: left;
+    margin-right: 1px;
+}
+
+.prices___num {
+    font-size: 72px;
+    font-family: "Roboto";
+    color: rgb(14, 26, 53);
+    font-weight: bold;
+    text-align: left;
+    margin-right: 4px;
+}
+  
+.prices___per_mon {
+    font-size: 24px;
+    font-family: "Roboto";
+    color: rgb(132, 146, 175);
+    font-weight: 400;
+    text-align: left;
+}
+  
+
+ul.prices___Card_list{
+    list-style-type: none;
+}
+
+.prices___Card_list{
+    font-size: 18px;
+    font-family: "Roboto";
+    color: rgb(132, 146, 175);
+    font-weight: 400;
+    line-height: 2.3;
+    align-self: center;
+}
+
+.prices___li{
+    word-spacing: 2px;
+    display: flex;
+    align-items: center;   
+}
+
+.prices___li_icons_check{
+    color: #5284ff;
+    bottom: -7px;
+    --fa-li-width: 51px;
+}
+
+.prices___li_icons_xmark{
+    color: #f84782; 
+    bottom: -7px;
+    --fa-li-width: 51px;
+}
+
+/*.prices___li_icon_style:before{
+    font-family: FontAwesome;
+    
+    content: "\f058";
+    font-size: 22px;
+    color: #5284ff;
+}
+
+ul.prices___Card_list li.prices___circle_check:before{ content: "\f058"; color: #5284ff;}
+ul.prices___Card_list li.prices___circle_xmark:before{ content: "\f057"; color: #f84782;}*/
+
+.prices___Roboto_Regular_center{
+    font-size: 18px;
+    font-family: "Roboto";
+    color: rgb(132, 146, 175);
+    font-weight: 400;
+    line-height: 1.667;
+    text-align: center;
+    width: 871px;
+    height: 48px;
+    margin-bottom: 67px;
+}
+
+.prices___Block_join_now{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 104px;
+}
+
+.prices___Lines{
+    background-color: rgb(132, 146, 175);
+    opacity: 0.302;
+    width: 226px;
+    height: 1px;
+}
+
+.prices___A_Join_now{
+    text-decoration: none;
+    background-color: rgb(85, 132, 255);
+    width: 204px;
+    height: 48px;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prices___Join_now{
+    font-size: 19px;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 7.684;
+    text-align: left;
+}
+
+.prices___A_Join_now:hover{
+    background-color:aqua;
+}
+
+
