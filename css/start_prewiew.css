@@ -20,6 +20,10 @@
     justify-content: center;
     align-items: center;
 }
+.menu-button a{
+    text-decoration: none;
+    color: white;
+}
 .menu-button:hover{
     transition: 0.5s ease-in-out;
     border-bottom: 1px solid white;
