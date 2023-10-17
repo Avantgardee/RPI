@@ -75,6 +75,7 @@
     display: flex;
     flex-direction: column;
     gap: 14px;
+    width: 390px;
 }
 
 
@@ -206,7 +207,7 @@
     align-items: center;
 }
 
-.triangle {
+.drag-and-drop .triangle {
     width: 0;
     height: 0;
     border-left: 7px solid transparent;
@@ -215,12 +216,12 @@
     
 }
   
-  .caret-left .triangle {
+.drag-and-drop .caret-left .triangle {
     transform: rotate(-90deg);
     margin-right: 3px;
   }
 
-  .caret-right .triangle {
+.drag-and-drop .caret-right .triangle {
     transform: rotate(90deg);
     margin-left: 4px;
   }
