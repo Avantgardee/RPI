@@ -18,10 +18,11 @@
 }
 .plus-cards{
     background-image: url(../img/back.png);
-    background-size: 2000px 623px;
+    background-size: 2000px 617px;
+    height: 556px;
     display: flex;
     justify-content: center;
-    margin-bottom: 23px;
+
 }
 .some-plus-text{
     text-align: center;

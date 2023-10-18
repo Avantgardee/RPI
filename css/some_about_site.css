@@ -17,8 +17,7 @@
     display: flex;
     justify-content: right;
     gap: 99px;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 84px;
 }
 
 .some-about-site .check-item {
