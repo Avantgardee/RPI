@@ -1,4 +1,9 @@
+.between-pages{
+    background-image: linear-gradient(0deg, #f5f7f9 0%, #ffffff 100%);
 
+    height: 166px;
+    width: 2000px;
+}
 
 .some-about-site img {
     /* width: px; */
@@ -16,7 +21,7 @@
     padding-bottom: 80px;
 }
 
-.check-item {
+.some-about-site .check-item {
     display: flex;
     gap: 18px;
 
