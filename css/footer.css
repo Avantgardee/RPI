@@ -3,7 +3,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 152px;
+    height: 154px;
+    padding-left: 5px;
 }
 
 .footer .footer .main_div{
@@ -21,14 +22,15 @@
     line-height: 1.667;
     text-align: right;
     align-self: center;
-    margin-right: 800px;
+    margin-right: 795px;
+    
 }
 
 .footer .footer .main_div .navigation{
     display: flex;
     flex-flow: row;
     gap: 55px;
-    margin-right: 20px;
+    margin-right: 50px;
 }
 
 
@@ -44,7 +46,7 @@
 }
 
 .footer .footer .main_div .navigation a:hover{
-    background-color:aqua;
+    color: white;
 }
 
 
@@ -61,6 +63,6 @@
 }
 
 .footer .footer .main_div .social_network_icons .icons :hover{
-    background-color:aqua;
+    color: white;
 }
 

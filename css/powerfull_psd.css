@@ -49,7 +49,6 @@
 .powerfull-psd___BigCircle1 {
         border-radius: 50%;
         background-color: #99b5ff;
-        opacity: 0.8;
         position: absolute;
         top: 451px;
         left: 929px;
@@ -61,7 +60,6 @@
 .powerfull-psd___BigCircle2 {
     border-radius: 50%;
     background-color: #99b5ff;
-    opacity: 0.8;
     position: absolute;
     top: 745px;
     left: 1026px;
@@ -98,7 +96,7 @@
         top: 473px;
         left: 306px;
         width: 631px;
-        height: 2px;
+        height: 1.5px;
         z-index: 86;
 }
 
@@ -108,7 +106,7 @@
         left: 1064px;
         top: 767px;
         width: 632px;
-        height: 2px;
+        height: 1.5px;
         z-index: 1;
 }
 
@@ -178,7 +176,6 @@
 .powerfull-psd___Gradient {
         background-image: linear-gradient(0deg, #ffffff 0%, #f5f7f9 100%);
         height: 126px;
-        z-index: -1;
         width: 100%;
         position: relative;
 }
