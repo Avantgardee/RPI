@@ -1,7 +1,7 @@
 
 
 .drag-and-drop {
-    background: url(../img/xenanana.png) no-repeat;
+    background: url(../img/back_1.png) no-repeat;
     background-position-y: -6px;
     background-position-x: -2px;
     height: 750px;
@@ -14,10 +14,12 @@
 
 .drag-and-drop .left-part {
     width: 830px;
+    height: 442px;
     margin-right: -3px;
-    margin-bottom: 98px;
+    margin-bottom: 84px;
     display: flex;
     flex-direction: column;
+    gap: 2px;
     /*grid-template-rows: 97px 97px 97px 97px;
     grid-template-columns: 390px 390px;
     grid-gap: 14px 50px;*/
@@ -27,7 +29,8 @@
     display: flex;
     gap: 50px;
     justify-content: center;
-    height: 100px;
+    height: 71px;
+    margin-bottom: 36px;
 }
 
 .drag-and-drop .left-part .header-name:first-child{
@@ -35,9 +38,6 @@
     justify-content: space-between;
 }
 
-.drag-and-drop .left-part .header-name:nth-child(2){
-    margin-left: -2px;
-}
 
 
 .drag-and-drop .left-part .header-name p{
@@ -74,7 +74,7 @@
 .drag-and-drop .left-column, .right-column {
     display: flex;
     flex-direction: column;
-    gap: 14px;
+    gap: 12px;
     width: 390px;
 }
 
