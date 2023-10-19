@@ -36,7 +36,7 @@ body {
     flex-direction: row;
     justify-content: center;
     gap: 140px;
-    margin-bottom: 109px;
+    margin-bottom: 104px;
 }
 
 .prices___Card {
@@ -148,7 +148,7 @@ ul.prices___Card_list li.prices___circle_xmark:before{ content: "\f057"; color: 
     text-align: center;
     width: 871px;
     height: 48px;
-    margin-bottom: 67px;
+    margin-bottom: 75px;
 }
 
 .prices___Block_join_now{
@@ -157,7 +157,7 @@ ul.prices___Card_list li.prices___circle_xmark:before{ content: "\f057"; color: 
     justify-content: center;
     align-items: center;
     gap: 30px;
-    margin-bottom: 104px;
+    margin-bottom: 103px;
 }
 
 .prices___Lines{
@@ -188,7 +188,9 @@ ul.prices___Card_list li.prices___circle_xmark:before{ content: "\f057"; color: 
 }
 
 .prices___A_Join_now:hover{
-    background-color:aqua;
+    background-color: #0a0ee7;
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 
