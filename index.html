@@ -93,7 +93,7 @@
 
             </div>
         </div>
-        <img src="./images/tablets.png" alt="tablets">
+        <img src="./img/tablets.png" alt="tablets">
     </section>
     <section class="drag-and-drop">
         <div class="left-part">
@@ -211,26 +211,7 @@
             </div>
         </div>  
 
-        <script>
-            let draggedCard = null;
         
-            function drag(event) {
-              draggedCard = event.target;
-            }
-        
-            function allowDrop(event) {
-              event.preventDefault();
-            }
-        
-            function drop(event, columnClass) {
-              event.preventDefault();
-              if (draggedCard) {
-                const targetColumn = document.querySelector(`.${columnClass}`);
-                targetColumn.appendChild(draggedCard);
-                draggedCard = null;
-              }
-            }
-        </script>
    
         <div class="right-part">
             <div class ="text">
